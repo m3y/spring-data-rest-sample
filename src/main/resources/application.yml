@@ -1,0 +1,11 @@
+spring:
+  data:
+    rest:
+      basePath: /api
+  datasource:
+    url: jdbc:mysql://localhost:13306/sample
+    username: <USERNAME>
+    password: <PASSWORD>
+  jpa:
+    hibernate:
+      ddl-auto: update
